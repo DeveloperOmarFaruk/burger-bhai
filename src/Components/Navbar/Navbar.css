@@ -1,0 +1,142 @@
+/* Laptop or Computer Device */
+
+.nav-container {
+    color: var(--Gray-3);
+    background: var( --Candy-3);
+    padding: 15px 0px;
+    margin: 0px 0px 0px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px 0px 5px 0px;
+    font-size: 15px;
+}
+
+.logo h1 {
+    padding: 10px 20px;
+    color: var( --White);
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-container ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px 0px 18px;
+    margin: 0px 0px 32px 32px;
+}
+
+.home {
+    color: var( --Orange);
+}
+
+.nav-links {
+    color: var(--White);
+}
+
+
+/* .nav-links:hover {
+    color: var( --Orange);
+    transition: 0.3s ease-in-out;
+} */
+
+.dot {
+    visibility: hidden;
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .nav-container {
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .nav-item {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 8px 25px;
+        margin: 0px 0px 0px 0px;
+    }
+    .logo-img {
+        height: 48px;
+        width: 45px;
+    }
+    .logo {
+        font-size: 16px;
+        letter-spacing: 5px;
+        justify-content: center;
+        margin: 20px 0px 5px 0px;
+    }
+    .logo h1 {
+        padding: 8px 18px;
+        color: var( --White);
+    }
+    .dot {
+        visibility: visible;
+    }
+    .reservation,
+    .blog,
+    .contact {
+        display: none;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .nav-container {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .nav-item {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 8px 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    .logo-img {
+        height: 32px;
+        width: 32px;
+    }
+    .logo {
+        font-size: 11px;
+        letter-spacing: 3px;
+        justify-content: center;
+        margin: 15px 0px 5px 0px;
+    }
+    .logo h1 {
+        padding: 5px 15px;
+        color: var( --White);
+    }
+    .dot {
+        visibility: visible;
+    }
+    .reservation,
+    .blog,
+    .contact {
+        display: none;
+    }
+}

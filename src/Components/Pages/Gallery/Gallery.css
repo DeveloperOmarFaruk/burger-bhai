@@ -1,0 +1,257 @@
+.about-section {
+    width: 100%;
+}
+
+.gallery-container {
+    padding: 0px 10px;
+    font-size: 14px;
+    font-family: var(--Open);
+    display: flex;
+    align-items: center;
+    max-width: 1090px;
+    width: 100%;
+    margin: 5px auto;
+    font-weight: 100;
+}
+
+.gallery-container h1 {
+    margin: 0px 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--Gray-6);
+    cursor: pointer;
+}
+
+.gallery-container h1:hover {
+    color: var(--Orange);
+    transition: 0.3s ease;
+}
+
+.gallery-container p {
+    margin: 0px 5px;
+    font-weight: 100;
+    color: var(--Orange);
+}
+
+
+/* ====================== */
+
+
+/* Gallery Video Section */
+
+
+/* =====================*/
+
+.gallery-video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.gallery-header {
+    position: relative;
+}
+
+.gallery-header h1 {
+    color: var(--White);
+    font-family: var(--Montserrat);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 17px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* ====================== */
+
+
+/* Gallery Text Section  */
+
+
+/* =====================*/
+
+.gallery-text {
+    width: 100%;
+    padding: 113px 0px 50px 0px;
+    text-align: center;
+}
+
+.gallery-text h1 {
+    color: var(--Candy-1);
+    font-family: var(--Delius);
+    font-size: 55px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+    padding: 0px 0px 20px 0px;
+}
+
+.gallery-text p {
+    color: var(--Gray-3);
+    font-family: var(--Open);
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 33px;
+    padding: 5px 0px 20px 0px;
+}
+
+
+/* ====================== */
+
+
+/* Gallery Image Section */
+
+
+/* =====================*/
+
+.gallery-image {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0px 30px 0px;
+    margin: 0px 0px;
+}
+
+.gallery-row {
+    position: relative;
+    background: var(--Black);
+    margin: 20px 20px;
+}
+
+.gallery-row-img {
+    width: 18rem;
+    height: 15rem;
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.search {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gallery-row:hover .gallery-row-img {
+    opacity: 0.3;
+}
+
+.gallery-row:hover .search {
+    opacity: 1;
+}
+
+.search i {
+    color: var(--White);
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+/* ====================== */
+
+
+/*   Tab        Device   */
+
+
+/* =====================*/
+
+@media (max-width: 1024px) {
+    .about-section {
+        width: 100%;
+    }
+    .gallery-header h1 {
+        font-size: 50px;
+        line-height: 58px;
+        letter-spacing: 18px;
+    }
+    .gallery-text {
+        width: 100%;
+        padding: 113px 43px 50px 43px;
+    }
+    .gallery-text h1 {
+        font-size: 30px;
+    }
+    .gallery-text p {
+        width: 100%;
+        font-size: 19px;
+    }
+    .gallery-image {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    .gallery-row {
+        margin: 0px 0px;
+    }
+    .gallery-row-img {
+        width: 100%;
+        max-width: 31.2rem;
+        height: 19rem;
+    }
+}
+
+
+/* ====================== */
+
+
+/*   Mobile     Device   */
+
+
+/* =====================*/
+
+@media (max-width: 768px) {
+    .about-section {
+        width: 100%;
+    }
+    .gallery-text {
+        width: 100%;
+        padding: 70px 43px 40px 43px;
+    }
+    .gallery-text h1 {
+        font-size: 22px;
+    }
+    .gallery-text p {
+        width: 100%;
+        font-size: 13px;
+    }
+    .gallery-header {
+        width: 100%;
+    }
+    .gallery-video {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: auto !important;
+    }
+    .gallery-header h1 {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 8px;
+    }
+    .gallery-image {
+        width: 100%;
+        display: inline-block;
+        margin: 0px 0px 10px 0px;
+    }
+    .gallery-row {
+        margin: 0px 0px;
+    }
+    .gallery-row-img {
+        width: 100%;
+        max-width: 100%;
+        height: 20rem;
+    }
+}

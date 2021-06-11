@@ -1,0 +1,78 @@
+/* Laptop or Computer Device*/
+
+.aboutUs-container {
+    width: 100%;
+    color: var( --Gray-3);
+    background-color: var(--Orange-pro);
+    padding: 85px 0px;
+    position: relative;
+}
+
+.aboutUs {
+    margin: 0px 20px;
+    text-align: center;
+    flex-basis: 800px;
+}
+
+.aboutUs-text h2 {
+    color: var(--White);
+    font-size: 42px;
+    font-weight: 100;
+    font-family: var(--Kaushan);
+    line-height: 1;
+    padding: 0rem 16rem;
+}
+
+.aboutUs-btn {
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: var(--Montserrat);
+    color: var(--White);
+    background-color: var(--White-light-pro);
+    padding: 22px 50px;
+    border-radius: 30px;
+    border: 3px solid var(--White);
+}
+
+.btn:hover {
+    color: var(--Orange);
+    background-color: var(--White);
+    transition: 0.4s ease-in-out;
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .aboutUs-container {
+        width: 100%;
+    }
+    .aboutUs-text h2 {
+        font-size: 3.5rem;
+        padding: 0rem 1rem;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .aboutUs-container {
+        width: 100%;
+    }
+    .aboutUs-text h2 {
+        font-size: 1.3rem;
+        padding: 0rem .5rem;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 15px 35px;
+    }
+}

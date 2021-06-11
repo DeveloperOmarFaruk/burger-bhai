@@ -1,0 +1,66 @@
+/* Laptop or Computer Device */
+
+.dropdown-menu {
+    background: var(--Black);
+    width: 200px;
+    height: auto;
+    position: absolute;
+    z-index: 100;
+    top: 11.2rem;
+    list-style: none;
+    text-align: start;
+    flex-direction: column;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px 18px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    text-transform: none;
+}
+
+.dropdown-menu a {
+    color: var(--White);
+    text-transform: capitalize;
+}
+
+.dropdown-menu a:hover {
+    color: var(--Orange);
+    transition: 0.3s ease-in-out;
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .dropdown-menu {
+        width: 170px;
+        top: 15rem;
+    }
+    .dropdown-menu li {
+        font-size: 14px;
+        padding: 15px 18px;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        width: 150px;
+        top: 20.3rem;
+    }
+    .dot-menu {
+        right: 2.5rem;
+    }
+    .dropdown-menu li {
+        font-size: 10px;
+        padding: 15px 18px;
+    }
+}

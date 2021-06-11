@@ -1,0 +1,217 @@
+.softDrinks-section,
+.saladFries-section,
+.breakfast-section,
+.burgers-section {
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.dropMenu-container {
+    padding: 10px;
+    font-size: 14px;
+    font-family: var(--Open);
+    display: flex;
+    align-items: center;
+    max-width: 1090px;
+    width: 100%;
+    margin: 5px auto;
+    font-weight: 100;
+}
+
+.dropMenu-container h1 {
+    margin: 0px 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--Gray-6);
+    cursor: pointer;
+}
+
+.dropMenu-container h1:hover {
+    color: var(--Orange);
+    transition: 0.3s ease;
+}
+
+.dropMenu-container p {
+    margin: 0px 5px;
+    font-weight: 100;
+    color: var(--Orange);
+}
+
+
+/* Soft Drinks, SaladFries, Breakfast, Burgers Part Start */
+
+.softDrinks-background {
+    background-image: url(../../../../Images/menu-5.jpg);
+}
+
+.saladFries-background {
+    background-image: url(../../../../Images/menu-4.jpg);
+}
+
+.breakfast-background {
+    background-image: url(../../../../Images/menu-3.jpg);
+}
+
+.burgers-background {
+    background-image: url(../../../../Images/menu-2.jpg);
+}
+
+.softDrinks-background,
+.saladFries-background,
+.breakfast-background,
+.burgers-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 87px 0px 87px 0px;
+}
+
+.softDrinks-background h1,
+.saladFries-background h1,
+.breakfast-background h1,
+.burgers-background h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--White);
+    font-size: 35px;
+    font-family: var(--Delius);
+}
+
+
+/* Price-Items-List */
+
+.price-items-list-section {
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 3px 0;
+    display: flex;
+    padding: 5rem 0rem 3rem 5rem;
+    justify-content: space-between;
+}
+
+.price-items-list-container {
+    list-style-type: none;
+    padding: 0px 0px 26px 0px;
+}
+
+.price-items-list-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-items-list-text h5 {
+    color: var(--Orange);
+    font-family: var(--Delius);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.price-items-list-dot {
+    border-style: dotted;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: var(--White-light-pro2);
+    align-self: center;
+    margin: 8px 0px 0px 0px;
+    position: relative;
+    height: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+
+.price-items-list-text p {
+    font-family: var(--Montserrat);
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 23px;
+    color: var(--Candy-1);
+    border-radius: 0px 0px;
+    padding: 5px 0px 6px 0px;
+    align-self: flex-start;
+}
+
+.price-items-list-container h4 {
+    color: var( --Gray-6);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--Open-1);
+    line-height: 23px;
+    text-align: left;
+    margin: 0px 0px;
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .softDrinks-section,
+    .saladFries-section,
+    .breakfast-section,
+    .burgers-section {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .softDrinks-background,
+    .saladFries-background,
+    .breakfast-background,
+    .burgers-background {
+        width: 100%;
+    }
+    .price-items-list-section {
+        width: 100%;
+        max-width: 1124px;
+        margin: 0 auto;
+        padding: 3px 0;
+        display: inline-block;
+        padding: 5rem 3rem 3rem 5rem;
+    }
+    .col-6 {
+        margin: 25px 0px 0px 0px;
+        width: 100%;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .softDrinks-section,
+    .saladFries-section,
+    .breakfast-section,
+    .burgers-section {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .softDrinks-background,
+    .saladFries-background,
+    .breakfast-background,
+    .burgers-background {
+        width: 100%;
+    }
+    .softDrinks-background h1,
+    .saladFries-background h1,
+    .breakfast-background h1,
+    .burgers-background h1 {
+        font-size: 25px;
+    }
+    .price-items-list-section {
+        width: 100%;
+        max-width: 1124px;
+        margin: 0 auto;
+        padding: 3px 0;
+        display: inline-block;
+        padding: 1rem 1rem 3rem 1rem;
+    }
+    .col-6 {
+        margin: 60px 0px 0px 0px;
+        width: 100%;
+    }
+}

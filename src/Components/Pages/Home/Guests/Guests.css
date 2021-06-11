@@ -1,0 +1,120 @@
+    /* Laptop or Computer Device*/
+    
+    .guests-container {
+        width: 100%;
+        padding: 90px 0px;
+    }
+    
+    .row {
+        padding: 0px 100px 0px 100px;
+    }
+    
+    .guests-row {
+        padding: 10px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .guests-container h1 {
+        font-size: 30px;
+        padding: 0px 0px 50px 0px;
+        font-family: var(--Delius);
+        color: var(--Candy-1);
+        text-align: center;
+    }
+    
+    .guests-intro {
+        display: inline-block;
+        padding: 20px 0px;
+    }
+    
+    .guests-intro img {
+        border-radius: 50%;
+        margin-left: 5.3rem;
+    }
+    
+    .guests-image {
+        width: 6em;
+        max-width: 6em;
+        height: 6em;
+        max-height: 6rem;
+    }
+    
+    .gusts-intro-text {
+        padding: 5px 20px;
+    }
+    
+    .gusts-intro-text h2 {
+        font-size: 22px;
+        font-family: var(--Delius);
+        color: var(--Candy-1);
+        font-weight: 100;
+        padding: 10px 0px;
+    }
+    
+    .gusts-intro-text h3 {
+        font-size: 12px;
+        font-family: var(--Montserrat);
+        color: var(--White-light);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    .gusts-details p {
+        color: var(--Gray-3);
+        font-family: var(--Open);
+        font-size: 15px;
+        background: var(--White-light-pro1);
+        margin: .5rem 16rem;
+        text-align: center;
+    }
+    /* Tab Device */
+    
+    @media (max-width: 1024px) {
+        .guests-container {
+            width: 100%;
+        }
+        .gusts-details p {
+            margin: .5rem 10rem;
+        }
+    }
+    /* Mobile Device */
+    
+    @media (max-width: 768px) {
+        .guests-container {
+            width: 100%;
+            padding: 60px 0px;
+        }
+        .row {
+            padding: 0px 10px 0px 10px;
+        }
+        .guests-row {
+            justify-content: center;
+        }
+        .guests-intro {
+            display: inline-block;
+            padding: 0px 0px;
+            justify-content: center;
+        }
+        .guests-intro img {
+            border-radius: 50%;
+        }
+        .guests-image {
+            width: 4em;
+            max-width: 4em;
+            height: 4em;
+            max-height: 4rem;
+        }
+        .gusts-intro-text h2 {
+            font-size: 20px;
+            padding: 7px 0px;
+        }
+        .gusts-intro-text h3 {
+            font-size: 11px;
+            letter-spacing: 2px;
+        }
+        .gusts-details p {
+            font-size: 13px;
+            margin: .9rem 0rem;
+        }
+    }

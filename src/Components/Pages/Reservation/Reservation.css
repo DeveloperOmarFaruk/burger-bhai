@@ -1,0 +1,325 @@
+.reservation-container {
+    padding: 10px;
+    font-size: 14px;
+    font-family: var(--Open);
+    display: flex;
+    align-items: center;
+    max-width: 1090px;
+    width: 100%;
+    margin: 5px auto;
+    font-weight: 100;
+}
+
+.reservation-container h1 {
+    margin: 0px 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--Gray-6);
+    cursor: pointer;
+}
+
+.reservation-container h1:hover {
+    color: var(--Orange);
+    transition: 0.3s ease;
+}
+
+.reservation-container p {
+    margin: 0px 5px;
+    font-weight: 100;
+    color: var(--Orange);
+}
+
+
+/*    Reservation Up & Down Text   */
+
+.reservation-up-text,
+.reservation-down-text {
+    width: 100%;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.reservation-up-text h1 {
+    color: var(--Orange);
+    font-family: var(--Kaushan);
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+    padding: 20px 10px;
+}
+
+.reservation-up-text h3,
+.reservation-down-text h3 {
+    color: var(--Candy-1);
+    font-family: var(--Delius);
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 29px;
+    padding: .5rem 16rem;
+}
+
+.reservation-up-text p,
+.reservation-down-text p {
+    color: var(--Gray-3);
+    font-family: var(--Open);
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    padding: 10px 90px;
+}
+
+
+/*    Reservation Table   */
+
+.reservation-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: auto !important;
+    padding: 0px 0px 18px 0px;
+}
+
+.reservation-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-row-1,
+.reservation-row-2,
+.reservation-row-3 {
+    padding: 38px 0px 38px 0px;
+}
+
+.reservation-row-1 img,
+.reservation-row-2 img,
+.reservation-row-3 img {
+    padding: 20px;
+}
+
+.reservation-row-2 img {
+    padding: 0px 45px;
+}
+
+.reservation-row-1 img {
+    padding: 0px 85px;
+}
+
+
+/*    Reservation Contact   */
+
+.reservation-contact {
+    height: auto;
+    width: 50%;
+    position: block;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px 30px 20px;
+    background-color: var(--Deep-red);
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    background: var(--White);
+    margin: 5px 0px 5px 0px;
+    padding: 11px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: auto;
+    height: 130px;
+}
+
+.comments {
+    margin-left: 1rem;
+}
+
+.reservation-contact-row-1,
+.reservation-contact-row-2 {
+    margin: 0px 10px;
+}
+
+.res-input label {
+    font-family: var(--Open);
+    font-size: 15px;
+    font-weight: 400;
+    font-size: normal;
+    line-height: 28.08px;
+    color: var(--White);
+}
+
+.reservation-book-btn {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.book-btn {
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: var(--Playfair);
+    color: var(--Orange);
+    background-color: var(--White-light-pro3);
+    padding: 20px 32px;
+    border-radius: 50px;
+    border: 3px solid var(--Orange);
+}
+
+.book-btn:hover {
+    color: var(--White);
+    background-color: var(--Orange);
+    transition: 0.4s ease-in-out;
+}
+
+
+/* ====================== */
+
+
+/*    Tab         Device */
+
+
+/* =====================*/
+
+@media (max-width: 1024px) {
+    .reservation-up-text,
+    .reservation-down-text {
+        width: 100%;
+    }
+    .reservation-up-text h3,
+    .reservation-down-text h3 {
+        font-size: 22px;
+        padding: .5rem 7.5rem;
+    }
+    .reservation-up-text p,
+    .reservation-down-text p {
+        font-size: 15px;
+        padding: 10px 130px;
+    }
+    .reservation-image {
+        width: 100%;
+    }
+    .reservation-row-1,
+    .reservation-row-2,
+    .reservation-row-3 {
+        padding: 38px 0px 38px 0px;
+    }
+    .reservation-row-1 img,
+    .reservation-row-2 img,
+    .reservation-row-3 img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+    .reservation-row-3 img {
+        padding: 0px 40px;
+    }
+    .reservation-row-2 img {
+        padding: 0px 20px;
+    }
+    .reservation-row-1 img {
+        padding: 0px 50px;
+    }
+    .reservation-contact {
+        height: auto;
+        width: 80%;
+        position: block;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 20px 30px 20px;
+    }
+    textarea {
+        margin-right: auto;
+        margin-left: 1rem;
+        max-width: 42.8rem;
+    }
+    .comments {
+        margin-left: 1rem;
+    }
+    .col-6 {
+        width: 100%;
+    }
+}
+
+
+/* ====================== */
+
+
+/*    Mobil       Device */
+
+
+/* =====================*/
+
+@media (max-width: 768px) {
+    .reservation-up-text,
+    .reservation-down-text {
+        width: 100%;
+        padding: 40px 5px;
+    }
+    .reservation-up-text h1 {
+        font-size: 32px;
+        padding: 5px 5px;
+    }
+    .reservation-up-text h3,
+    .reservation-down-text h3 {
+        font-size: 16px;
+        padding: .5rem 3rem;
+    }
+    .reservation-up-text p,
+    .reservation-down-text p {
+        font-size: 12px;
+        padding: 10px 35px;
+    }
+    .reservation-row {
+        display: inline;
+    }
+    .reservation-image {
+        width: 100%;
+    }
+    .reservation-row-1,
+    .reservation-row-2,
+    .reservation-row-3 {
+        padding: 0px 40px 30px 40px;
+    }
+    .reservation-row-1 img,
+    .reservation-row-2 img,
+    .reservation-row-3 img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 5px 60px;
+    }
+    .reservation-contact {
+        height: auto;
+        width: 90%;
+        position: block;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 5px 30px 5px;
+    }
+    textarea,
+    input[type=text] {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: auto;
+    }
+    .comments {
+        margin-left: 1rem;
+    }
+}

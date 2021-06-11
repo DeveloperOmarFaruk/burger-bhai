@@ -1,0 +1,80 @@
+/* Laptop or Computer Device */
+
+.awards-container {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.awards-container h1 {
+    color: var(--Candy-1);
+    font-size: 30px;
+    font-family: var(--Delius);
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+
+.award-row {
+    padding: 50px 100px;
+}
+
+.award-col {
+    text-align: center;
+    padding: 0px 35px;
+}
+
+.award-logo {
+    padding: 0px 0px 10px;
+}
+
+.award-text h2 {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: var(--Montserrat);
+    margin: 0px 0px 10px;
+    color: var(--Candy-1);
+}
+
+.award-text p {
+    font-size: 15px;
+    font-family: var(--Open);
+    color: var(--Gray-7);
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .awards-container {
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .award-col {
+        padding: 20px 35px;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .awards-container {
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .award-row {
+        padding: 10px 80px;
+    }
+    .award-col {
+        padding: 5px 0px;
+    }
+    .award-text h2 {
+        font-size: 13px;
+        margin: 0px 0px 5px;
+    }
+}

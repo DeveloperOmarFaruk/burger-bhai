@@ -1,0 +1,87 @@
+/* Laptop or Computer Device */
+
+.cook-container {
+    width: 100%;
+    padding: 234px 0px;
+    background-image: url(../../../../Images/cook.jpg);
+    background-position: center;
+}
+
+.col-6 {
+    display: inline-block;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0px 60px 0px 20px;
+}
+
+.col-6 h1 {
+    color: var(--White);
+    font-size: 55px;
+    font-family: var(--Delius);
+    font-weight: 100;
+    padding: 0px 0px 15px 0px;
+}
+
+.col-6 h2 {
+    color: var(--White);
+    font-size: 12px;
+    font-family: var(--Montserrat);
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 0px 0px 35px 0px;
+}
+
+.col-6 p {
+    color: var(--White);
+    font-size: 20px;
+    font-family: var(--Open);
+}
+
+.ourTeam-btn {
+    margin: 50px 0px 20px 0px;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: var(--Montserrat);
+    color: var(--White);
+    background-color: var(--White-light-pro);
+    padding: 22px 50px;
+    border-radius: 30px;
+    border: 3px solid var(--White);
+}
+
+.btn:hover {
+    color: var(--Orange);
+    background-color: var(--White);
+    transition: 0.4s ease-in-out;
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .cook-container {
+        width: 100%;
+        padding: 170px 0px;
+        background-position: center;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .cook-container {
+        width: 100%;
+        padding: 38px 0px;
+        background-position: center;
+    }
+    .col-6 {
+        padding: 0px 20px;
+    }
+}

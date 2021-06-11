@@ -1,0 +1,204 @@
+.blog-container {
+    padding: 10px;
+    font-size: 14px;
+    font-family: var(--Open);
+    display: flex;
+    align-items: center;
+    max-width: 1090px;
+    width: 100%;
+    margin: 5px auto;
+    font-weight: 100;
+}
+
+.blog-container h1 {
+    margin: 0px 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--Gray-6);
+    cursor: pointer;
+}
+
+.blog-container h1:hover {
+    color: var(--Orange);
+    transition: 0.3s ease;
+}
+
+.blog-container p {
+    margin: 0px 5px;
+    font-weight: 100;
+    color: var(--Orange);
+}
+
+.blog-img-text {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.blog-img-text img {
+    height: auto;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-text {
+    height: auto;
+    width: 50%;
+    position: block;
+    text-align: start;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 40px 0px;
+    border-bottom: 1px solid var(--Gray-7);
+}
+
+.blog-text h1 {
+    color: var(--Orange);
+    font-size: 30px;
+    font-family: var(--Delius);
+    font-style: normal;
+    line-height: 37px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.blog-text h1:hover,
+.blog-read-btn a:hover {
+    color: var(--Black-light);
+    transition: 0.5s ease;
+}
+
+.blog-text p {
+    color: var(--Gray-3);
+    font-size: 15px;
+    font-family: var(--Open);
+    margin: 30px 0px 28px 0px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blog-read-btn a {
+    color: var(--Orange);
+    font-size: 14px;
+    font-family: var(--Montserrat);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.blog-page-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+    font-size: 18px;
+    font-family: var(--Delius);
+    background: var(--White-light-pro4);
+}
+
+.blog-page-number span {
+    margin: 0px 2px;
+    padding: 10px;
+    color: var(--Gray-3);
+}
+
+.blog-page-number a,
+.a {
+    background: var(--White-light-pro);
+    text-decoration: none;
+    margin: 0px 2px;
+    padding: 10px;
+    color: var(--Orange);
+}
+
+.blog-page-number i {
+    font-size: 15px;
+}
+
+.blog-page-number a:hover,
+.a:hover {
+    color: var(--Gray-3);
+    transition: .5s ease;
+}
+
+
+/* ====================== */
+
+
+/*   Tab        Device   */
+
+
+/* =====================*/
+
+@media (max-width: 1024px) {
+    .blog-section {
+        width: 100%;
+    }
+    .blog-img-text {
+        width: 100%;
+        max-width: 100%;
+    }
+    .blog-img-text img {
+        height: auto;
+        width: 100%;
+        padding: 0rem 6rem;
+    }
+    .blog-text {
+        width: 80%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem 6rem;
+        border-bottom: 1px solid var(--Gray-7);
+    }
+}
+
+
+/* ====================== */
+
+
+/*   Mobile     Device   */
+
+
+/* =====================*/
+
+@media (max-width: 768px) {
+    .blog-section {
+        width: 100%;
+    }
+    .blog-img-text {
+        width: 100%;
+        max-width: 100%;
+    }
+    .blog-img-text img {
+        height: auto;
+        width: 100%;
+        max-width: 1124px;
+        margin: 0rem;
+        padding: 0rem 1rem;
+    }
+    .blog-text {
+        max-width: 1124px;
+        margin: 1rem 0rem;
+        padding: .3rem 1rem;
+        border-bottom: none;
+    }
+    .blog-text h1 {
+        margin: 0px 0px 0px 0px;
+    }
+    .blog-text p {
+        margin: 30px 40px 28px 0px;
+    }
+}

@@ -1,0 +1,84 @@
+/* Laptop or Computer Device */
+
+.footer-container {
+    background: var(--Candy-3);
+    padding: 2px 0px;
+}
+
+.footer-address,
+.developer,
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-address {
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 3px 0;
+    justify-content: space-between;
+}
+
+.developer,
+.social-icon {
+    padding: 10px;
+}
+
+.developer {
+    font-size: 15px;
+    font-family: var(--Open);
+    color: var(--Gray-3);
+}
+
+.developer a {
+    text-decoration: none;
+    color: var(--Orange);
+}
+
+.developer a:hover {
+    color: var(--White);
+    transition: 0.3s ease;
+}
+
+.social-icon a {
+    margin: 0px 5px;
+    padding: 2px 5px;
+    color: var(--White-light);
+    border-radius: 20%;
+    background-color: var( --Gray-2)
+}
+
+.mobile-number:hover {
+    color: var(--Hover);
+}
+
+.social-icon i:hover {
+    color: var(--White);
+}
+
+
+/* Tab Device */
+
+@media (max-width: 1024px) {
+    .footer-address {
+        width: 100%;
+        margin: 0;
+        padding: 3px 15px;
+    }
+}
+
+
+/* Mobile Device */
+
+@media (max-width: 768px) {
+    .footer-address {
+        display: inline-block;
+        justify-content: center;
+    }
+    .developer {
+        font-size: 11px;
+        padding: 40px 0px 20px 0px;
+    }
+}
