@@ -83,9 +83,9 @@ const BlogPage2 = ({match}) => {
             <div className="blog-section">
                 <div className="blog-container">
                     <h1  onClick={handleRoute}>Home</h1>
-                    <i class="fas fa-chevron-right"></i>
+                    <i className="fas fa-chevron-right"></i>
                     <h1  onClick={handleRouteBlog}>Blog</h1>
-                    <i class="fas fa-chevron-right"></i>
+                    <i className="fas fa-chevron-right"></i>
                     <p>Page{match.params.pageNumber}</p>
                 </div>
 
